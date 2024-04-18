@@ -5,6 +5,12 @@
   body {
     margin: 0 auto;
     max-width: 1024px;
+    background-color: #eeeeee;
+    font-family: "Rubik", sans-serif, Arial, Verdana;
+  }
+
+  header {
+    padding: 25px;
   }
 
   ul {
@@ -15,13 +21,9 @@
   a {
     text-decoration: none;
   }
-
   nav {
-    font-family: "Rubik", sans-serif, Arial, Verdana;;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #bebebe;
-    padding: 25px;
   }
 
   h1, .top-nav {
@@ -43,9 +45,16 @@
   .top-nav li {
     padding: 10px 0;
     margin: 5px auto;
-    background-color: #fff;
+    background-color: #fdfdfd;
   }
   
   .top-nav a {
     text-transform: uppercase;
   }
+
+  .intro {
+    text-align: center;
+}
+.message {
+  color: #838383;
+}
