@@ -5,7 +5,7 @@
   body {
     margin: 0 auto;
     max-width: 1024px;
-    background-color: #eeeeee;
+    background-color: #fafafa;
     font-family: "Rubik", sans-serif, Arial, Verdana;
   }
 
@@ -36,6 +36,7 @@
   
   h1 a, .top-nav a {
     color: #000;
+    font-weight: 600;
   }
 
   .top-nav {
@@ -54,7 +55,52 @@
 
   .intro {
     text-align: center;
+  }
+  .profile-image {
+    width: 100%;
+  }
+  .message {
+    color: #838383;
+  }
+
+@media (min-width: 768px) {
+  .top-nav {
+    margin-top: 0;
+  }
+
+  .top-nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    background-color: transparent;
+  }
+
+  .top-nav li:last-child {
+    margin-right: 0;
+  }
+  .intro {
+    display: flex;
+    margin-top: 30px;
+  }
+  .profile-image {
+    order: 1;
+  }
+  .message {
+    text-align: left;
+    margin-top: 0;
+  }
 }
-.message {
-  color: #838383;
+
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top-nav, 
+  .top-nav li {
+    width: initial;
+    margin-bottom: 0;
+  }
 }
