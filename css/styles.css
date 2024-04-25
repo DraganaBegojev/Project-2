@@ -63,9 +63,15 @@
   .message {
     color: #838383;
     margin-top: 20px;
+    font-size: 1em;
   }
+  #portfolio {
+    background-color: #ffffff;
+    padding-top: 50px;
+}
   #portfolio h4 {
     text-align: center;
+    padding-bottom: 30px;
   }
 
   .container {
@@ -78,35 +84,24 @@
   .col {
     margin: 10px;
     min-height: 250px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 5px;
   }
 
-  .box-1 {
-    background-color: #093145;
+  .portfolio-image {
+    width: 100%;
   }
-  
-  .box-2 {
-    background-color: #3C6478;
+  .project-descr {
+    padding: 20px 10px;
   }
-  
-  .box-3 {
-    background-color: #107896;
+  .project-descr h4{
+    padding-bottom: 15px;
   }
-  
-  .box-4 {
-    background-color: #829356;
+  .project-descr p{
+    font-size: 0.9em;
   }
-  
-  .box-5 {
-    background-color: #C2571A;
-  }
-  
-  .box-6 {
-    background-color: #9A2617;
-  }
+
 
 
 @media (min-width: 768px) {
