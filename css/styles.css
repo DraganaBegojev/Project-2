@@ -122,12 +122,13 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 220px;
+    border-bottom: solid 1px #838383;
   }
 
   #contact h4 {
-    padding-bottom: 30px;
     padding-top: 30px;
+    padding-bottom: 30px;
   }
   #contact p {
     padding-bottom: 30px;
@@ -135,6 +136,8 @@
   #contact a {
     padding-bottom: 15px;
   }
+
+
 
   .full {
     display: none;
