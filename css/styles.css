@@ -7,8 +7,12 @@
   body {
     margin: 0 auto;
     max-width: 1024px;
+    min-height: 100vh;
     background-color: #fafafa;
+    color: black;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
   }
 
   header {
@@ -22,6 +26,7 @@
 
   a {
     text-decoration: none;
+    color:#000;
   }
   nav {
     letter-spacing: .05em;
@@ -102,6 +107,42 @@
     font-size: 0.9em;
   }
 
+  footer {
+    background-color: #cdb2de;
+    padding: 0 20px;
+  }
+  #footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    height: 100px;
+  }
+  #contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  #contact h4 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #contact p {
+    padding-bottom: 30px;
+  }
+  #contact a {
+    padding-bottom: 15px;
+  }
+
+  .full {
+    display: none;
+  }
+  .footer-nav {
+    text-transform: uppercase;
+  }
+
 
 
 @media (min-width: 768px) {
@@ -137,6 +178,13 @@
   }
   .col {
     flex-basis: calc(50% - 20px);
+  }
+  .top {
+    display: none;
+  }
+  .full {
+    display: inline-block;
+    margin-left: 20px;
   }
 }
 
