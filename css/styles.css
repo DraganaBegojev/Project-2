@@ -112,13 +112,14 @@
   }
   .skill {
     text-align: center;
+    font-family: "Anonymous Pro", monospace;
   }
 
   .skill li {
     border-radius: 6px;
     display: inline-block;
     background: #9204ff;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     margin: 2px;
   }
