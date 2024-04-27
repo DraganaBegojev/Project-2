@@ -55,10 +55,6 @@
     margin: 5px auto;
     background-color: #fdfdfd;
   }
-  
-  .top-nav a {
-    text-transform: uppercase;
-  }
 
   .intro {
     text-align: center;
@@ -179,7 +175,9 @@
   .footer-nav {
     text-transform: uppercase;
   }
-
+  .top-nav a:hover, .footer-nav a:hover {
+    color:#16830e;
+  }
 
 /* When the browser is at least 768px and above */
 @media (min-width: 768px) {
@@ -197,6 +195,7 @@
   .top-nav li:last-child {
     margin-right: 0;
   }
+
   .intro {
     display: flex;
     margin-top: 30px;
