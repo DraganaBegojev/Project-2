@@ -103,8 +103,9 @@
   .project-descr {
     padding: 20px 10px;
   }
-  .project-descr h4{
+  .project-descr h3{
     padding-bottom: 15px;
+    font-size: 16px;
   }
   .project-descr p{
     font-size: 0.9em;
@@ -145,7 +146,7 @@
     height: 100px;
     font-weight: 900;
   }
-  #footer-nav h3, #footer-nav a {
+  #footer-nav h4, #footer-nav a {
     font-size: 15px;
   }
   #contact {
