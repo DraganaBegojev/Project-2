@@ -40,7 +40,8 @@
     width: 100%;
   }
   
-  h1 a, .top-nav a,  #portfolio h4 {
+  /*titles styles*/
+  h1 a, .top-nav a,  #portfolio h4, #skills h4 {
     color: #000;
     font-weight: 900;
   }
@@ -70,11 +71,12 @@
     margin-top: 20px;
     font-size: 1em;
   }
-  #portfolio {
+  #portfolio, #skills {
     background-color: #ffffff;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
-  #portfolio h4 {
+  #portfolio h4, #skills h4 {
     text-align: center;
     padding-bottom: 30px;
   }
@@ -106,6 +108,29 @@
   .project-descr p{
     font-size: 0.9em;
   }
+  #skills {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill {
+    text-align: center;
+  }
+
+  .skill li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #9204ff;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .skill li:nth-child(odd) {
+    background: #16830e;
+  }
+
 
   footer {
     padding: 0 20px;
@@ -147,8 +172,6 @@
   .contact-details a:hover {
     color: rgb(122, 8, 236);
   }
-
-
 
   .full {
     display: none;
