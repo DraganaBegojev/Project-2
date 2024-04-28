@@ -235,6 +235,10 @@
     display: inline-block;
     margin-left: 20px;
   }
+  .contact-message {
+    width: 500px;
+    margin: auto;
+}
 }
 
 /* When the browser is at least 1024px and above */
